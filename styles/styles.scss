@@ -500,6 +500,9 @@ section{
                 p{
                     margin: .3rem 0 !important;
                     padding: 0 !important;
+                    @media screen and(max-width: 380px) {
+                        font-size: 1rem;
+                    }
                 }
                 .icon{
                     display: grid;
@@ -508,6 +511,7 @@ section{
                         display: flex;
                         align-items: center;
                         font-size: 1.3rem;
+                      
                     }
                 }
             }
